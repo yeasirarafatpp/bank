@@ -37,4 +37,5 @@ document.getElementById('withdraw').addEventListener('click', function () {
     const beforeWithdraw = parseFloat(beforeWithdrawText);
     const totalWithdrawBalance = beforeWithdraw - newWithdrawAmount;
     withdrawTotal.innerText = totalWithdrawBalance;
+    withdrawInput.value = '';
 });
